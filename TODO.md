@@ -1,0 +1,28 @@
+- [x] 字句解析
+  - [x] Tested
+- [x] 構文解析
+  - [x] Tested
+- [x] 組み込み関数の実装
+  - [x] atom
+    - [x] Tested
+  - [x] eq
+    - [x] Tested
+  - [x] car
+    - [x] Tested
+  - [x] cdr 
+    - [x] Tested
+  - [x] cons
+    - [x] Tested
+  - [x] if
+    - [x] Tested
+  - [x] quote
+    - [x] Tested
+  - [x] lambda
+    - [x] Tested
+  - [x] define
+    - [x] Tested
+  - [x] print(デバッグ用)
+    - [x] Tested
+- [x] 動的スコープ
+    - [x] Tested
+- [ ] 不正なソースコードを入力された時、エラーメッセージを表示する
