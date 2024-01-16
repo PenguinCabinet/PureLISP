@@ -16,7 +16,8 @@ HelloWorldのソースコード
 データ型には「atom」と「lambda」と「pair」があります。
 
 ### atom
-|型|書き方|動作|
+|型|説明|
+|---|---|
 |nil|nilを表します|
 |T|Trueを表します|
 |Other|define構文で定義されたもの以外のすべてです|
@@ -34,6 +35,7 @@ HelloWorldのソースコード
 
 ## 構文
 |構文|書き方|動作|
+|---|---|---|
 |atom|(atom A)|Aのデータ型がatomならT、それ以外ならnilを返します|
 |eq|(A B)|AとBが等しければ、T、それ以外ならnilを返します|
 |car|(car (cons A B))|引数のペアの右側を返します|
