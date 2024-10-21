@@ -38,7 +38,7 @@ HelloWorldのソースコード
 |構文|書き方|動作|
 |---|---|---|
 |atom|(atom A)|Aのデータ型がatomならT、それ以外ならnilを返します|
-|eq|(A B)|AとBが等しければ、T、それ以外ならnilを返します|
+|eq|(eq A B)|AとBが等しければ、T、それ以外ならnilを返します|
 |car|(car (cons A B))|引数のペアの右側を返します|
 |cdr|(cons A B)|引数のペアの左側を返します|
 |cons|(cons A B)|ペア(A B)を返します|
